@@ -8,6 +8,7 @@ import { BeatrizHeaderComponent } from './Componentes/beatriz-header/beatriz-hea
 import { BeatrizTimerComponent } from './Componentes/beatriz-timer/beatriz-timer.component';
 import { BeatrizSimpleInterestsComponent } from './Componentes/beatriz-simple-interests/beatriz-simple-interests.component';
 import { BeatrizCompoumdInterestsComponent } from './Componentes/beatriz-compoumd-interests/beatriz-compoumd-interests.component';
+import { RandomNumbersComponent } from './Componentes/random-numbers/random-numbers.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -18,6 +19,7 @@ import { BeatrizCompoumdInterestsComponent } from './Componentes/beatriz-compoum
     BeatrizTimerComponent,
     BeatrizSimpleInterestsComponent,
     BeatrizCompoumdInterestsComponent,
+    RandomNumbersComponent,
   ],
   bootstrap: [AppComponent],
 })

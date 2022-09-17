@@ -1,15 +1,14 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-beatriz-radom-numbers',
-  templateUrl: './beatriz-radom-numbers.component.html',
-  styleUrls: ['./beatriz-radom-numbers.component.css'],
+  selector: 'app-random-numbers',
+  templateUrl: './random-numbers.component.html',
+  styleUrls: ['./random-numbers.component.css'],
 })
-export class BeatrizRadomNumbersComponent implements OnInit {
+export class RandomNumbersComponent implements OnInit {
   constructor() {}
-
   shuffledArray: [];
-  @Input() m: string;
+
   shuffleArray(array) {
     var m = array.length,
       t,
